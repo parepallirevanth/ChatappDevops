@@ -12,7 +12,7 @@ SECRET_KEY = '!ncc@zr13dvdncvsr7-c2=2!dt-nzpi4=86*bse73xh-kjrks0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-app_service_host = 'Chat-webapp'
+app_service_host = 'Chat-Webapp'
 ALLOWED_HOSTS = [f"{app_service_host}.azurewebsites.net", "127.0.0.1"]
 
 
@@ -66,7 +66,7 @@ CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         'CONFIG': {
-            "hosts": [('127.0.0.1', 6379)],
+            "hosts": [('*', 6379)],
         },
     },
 }
@@ -136,5 +136,5 @@ EMAIL_HOST_PASSWORD ='sumanth_12356'
 EMAIL_PORT = 587
 
 
-ADMIN_EMAIL = 'parepallirevanth@gmail.com'
-ADMINS = [('Admin', ADMIN_EMAIL)]
+#ADMIN_EMAIL = 'parepallirevanth@gmail.com'
+#ADMINS = [('Admin', ADMIN_EMAIL)]
