@@ -12,7 +12,7 @@ SECRET_KEY = '!ncc@zr13dvdncvsr7-c2=2!dt-nzpi4=86*bse73xh-kjrks0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-app_service_host = 'Chat-Webapp'
+app_service_host = 'chat-webapp'
 ALLOWED_HOSTS = [f"{app_service_host}.azurewebsites.net", "127.0.0.1"]
 
 
