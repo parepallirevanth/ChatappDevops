@@ -80,7 +80,9 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'chatapp@chatappserver',
         'PASSWORD':'Revanth@1998',
-        'HOST': 'chatappserver.postgres.database.azure.com'
+        'HOST': 'chatappserver.postgres.database.azure.com',
+	'PORT': 5432,
+
     }
 }
 
