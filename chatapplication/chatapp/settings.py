@@ -82,6 +82,7 @@ DATABASES = {
         'PASSWORD':'Revanth@1998',
         'HOST': 'chatappserver.postgres.database.azure.com',
 	'PORT': 5432,
+	'OPTIONS': {'sslmode':'require'},
 
     }
 }
